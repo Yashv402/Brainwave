@@ -7,7 +7,7 @@ function CompanyLogos({ className }) {
       <h5 className="tagline mb-6 text-center text-n-1/50">
         Helping people create beautiful content at
       </h5>
-      <ul className="flex justify-center justify-between mx-[30rem]">
+      <ul className="flex justify-between mx-[30rem]">
         {companyLogos.map((logo, index) => (
           <li 
           className="flex items-center justify-center h-[8.5rem]"
